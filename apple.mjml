@@ -1,0 +1,246 @@
+<mjml>
+  <mj-head>
+    <mj-preview>
+      Apple Email
+    </mj-preview>
+
+    <mj-attributes>
+      <!-- Utility -->
+      <mj-class name="center" align="center" />
+      <mj-class name="grey-text" color="#86868b" font-weight="300" />
+      <mj-class name="two-col" padding-left="30px" padding-right="30px" />
+      <mj-class name="white-container" width="150px" padding-bottom="10px" />
+      <mj-class name="red-text" color="#bf4800" font-size="12px" />
+      <mj-class name="footer-text" align="center" color="#D2D2D7" font-weight="100" />
+      <!-- MJML Attributes -->
+      <mj-section padding="0" background-color="#000000" />
+
+      <mj-text color="#FFFFFF" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'SF Pro Icons'" color="#FFFFFF" padding="0px" font-weight="500" />
+
+      <mj-button padding="0px" border-radius="20px" font-weight="300" background-color="#0071e3" />
+
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style inline>
+      .border-top img {
+        border-top-left-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+        background-color: #FFFFFF !important;
+
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#161617">
+
+    <!-- Logo -->
+    <mj-section>
+      <mj-column padding-top="30px" padding-bottom="0px">
+        <mj-image width="57px" src="apple_logo.png" alt="Logo" />
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Heading -->
+    <mj-section padding="0px 20px">
+      <mj-column>
+        <mj-text mj-class="center" padding-bottom="10px">
+          Apple Shopping Event
+        </mj-text>
+        <mj-text mj-class="center" font-size="40px">
+          Come for the products. <br>
+          Stay for the offers.
+        </mj-text>
+        <mj-text mj-class="center grey-text" font-size="15px" line-height="29px" padding-top="20px" padding-bottom="30px">
+          Get an Apple Gift Card for a later purchase when you buy <br>an eligible iPhone, Apple Watch, Mac, AirPods,<br> and more.* From November 25 to 28.
+        </mj-text>
+        <mj-button padding-bottom="60px" href="https//www.google.com">
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 1 -->
+    <mj-section direction="rtl" mj-class="two-col">
+      <mj-column>
+        <mj-raw>
+          <a href="https://google.com"><img width="100%" src="red-iphone.jpeg" alt="Iphone 13" /></a>
+        </mj-raw>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="30px" padding-bottom="12px" padding-top="70px">
+          iPhone
+        </mj-text>
+        <mj-text padding-bottom="10px" line-height="20px" font-size="14px">
+          Get a $50 Apple Gift Card with your purchase.*
+        </mj-text>
+        <mj-text line-height="20px" mj-class="grey-text" padding-bottom="80px">
+          Enjoy 3 months of Apple TV+ free with <br>your new iPhone.<sup>1</sup> And save when you <br> trade in your current device.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 2 -->
+    <mj-section padding="5px 30px 30px 30px">
+      <mj-column mj-class="white-container">
+        <mj-image src="w2.jpeg" width="225px" alt="iphone SE" padding-bottom="0px" css-class="border-top" />
+
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" padding-bottom="10px" padding-top="10px">
+          Get a $50 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px">
+          iPhone 13 or iPhone 13 mini
+        </mj-text>
+        <mj-text align="center" css-class="text border-bottom" color="#1d1d1f" padding-bottom="10px" font-size="10px" font-weight="300">
+          From $599 or $24.95/mo. <br>
+          for 24 mo.
+        </mj-text>
+      </mj-column>
+      <mj-column width="2%">
+      </mj-column>
+      <mj-column mj-class="white-container">
+        <mj-image src="w3.jpeg" width="225px" alt="iphone SE" css-class="border-top" />
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" css-class="text" padding-bottom="10px" padding-top="10px">
+          Get a $50 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px">
+          iPhone 12
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" font-size="10px" font-weight="300" css-class="text border-bottom" padding-bottom="10px">
+          From $599 or $24.95/mo. <br>
+          for 24 mo.
+        </mj-text>
+      </mj-column>
+      <mj-column width="2%">
+      </mj-column>
+      <mj-column mj-class="white-container">
+        <mj-image src="w1.jpeg" width="225px" alt="iphone SE" css-class="border-top" />
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" css-class="text" padding-bottom="10px" padding-top="10px">
+          Get a $50 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px">
+          iPhone 13 SE
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" font-size="10px" font-weight="300" css-class="text border-bottom" padding-bottom="10px">
+          From $429 or $17.87/mo. <br>
+          for 24 mo.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 3 -->
+    <mj-section mj-class="two-col" padding-bottom="20px">
+      <mj-column>
+        <mj-raw>
+          <a href="https://google.com"><img width="100%" src="airpods.jpeg" alt="airpods" /></a>
+        </mj-raw>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="30px" padding-bottom="12px" padding-top="50px">
+          AirPods
+        </mj-text>
+        <mj-text padding-bottom="10px" line-height="20px" font-size="14px">
+          Get up to a $75 Apple Gift Card with your purchase.*
+        </mj-text>
+        <mj-text line-height="20px" mj-class="grey-text" padding-bottom="10px">
+          And personalize your AirPods with free engraving.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Sectio 4 -->
+    <mj-section padding="5px 0px 30px 0px">
+      <mj-column width="48%">
+        <mj-image src="airpods2.jpeg" width="250px" alt="iphone SE" padding-bottom="0px" css-class="border-top" />
+
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" padding-bottom="10px" padding-top="10px">
+          Get a $50 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px" line-height="16px">
+          Airpods Pro <br>(2nd Generation)
+        </mj-text>
+        <mj-text align="center" css-class="text border-bottom" color="#1d1d1f" padding-bottom="10px" font-size="10px" font-weight="300">
+          From $249 or $41.50/mo. <br>
+          for 6 mo.
+        </mj-text>
+      </mj-column>
+      <mj-column width="1%">
+      </mj-column>
+      <mj-column width="48%">
+        <mj-image src="airpods3.jpeg" width="250px" alt="iphone SE" css-class="border-top" />
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" css-class="text" padding-bottom="10px" padding-top="10px">
+          Get a $25 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px" line-height="16px">
+          Airpods Pro <br>(2nd Generation)
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" font-size="10px" font-weight="300" css-class="text border-bottom" padding-bottom="10px">
+          From $129 or $21.50/mo. <br>
+          for 6 mo.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Section 5 -->
+    <mj-section padding="5px 0px 30px 0px">
+      <mj-column width="48%">
+        <mj-image src="airpods4.jpeg" width="250px" alt="iphone SE" padding-bottom="0px" css-class="border-top" />
+
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" padding-bottom="10px" padding-top="10px">
+          Get a $25 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px" line-height="17px">
+          Airpods Pro (3rd Generation) <br>
+          With Lightning Charging Case
+        </mj-text>
+        <mj-text align="center" css-class="text border-bottom" color="#1d1d1f" padding-bottom="10px" font-size="10px" font-weight="300">
+          From $169 or $28.16/mo. <br>
+          for 6 mo.
+        </mj-text>
+      </mj-column>
+      <mj-column width="1%">
+      </mj-column>
+      <mj-column width="48%">
+        <mj-image src="airpods5.jpeg" width="250px" alt="iphone SE" css-class="border-top" />
+        <mj-text align="center" mj-class="red-text" font-size="10px" font-weight="300" css-class="text" padding-bottom="10px" padding-top="10px">
+          Get a $75 gift card*
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" css-class="text" padding-bottom="10px">
+          Airpods Max
+        </mj-text>
+        <mj-text align="center" color="#1d1d1f" font-size="10px" font-weight="300" css-class="text border-bottom" padding-bottom="10px">
+          From $549 or $91.50/mo. <br>
+          for 6 mo.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- Section 6 -->
+    <mj-section padding="0px 0px 0px 30px">
+      <mj-column>
+        <mj-text font-size="30px" padding-bottom="12px" padding-top="30px">
+          Mac
+        </mj-text>
+        <mj-text padding-bottom="10px" line-height="20px" font-size="14px">
+          Get a $250 Apple Gift Card with your purchase.*
+        </mj-text>
+        <mj-text line-height="20px" mj-class="grey-text">
+          Enjoy 3 months of Apple TV+ free with <br>your new Mac.<sup>1</sup> And save when you <br> trade in your current device.
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-raw>
+          <a href="https://google.com"><img width="100%" src="mac-hero.jpeg" alt="Iphone 13" /></a>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="40px 10px 15px 10px">
+      <mj-column>
+        <mj-text mj-class="footer-text">
+          Shop Online &nbsp; | &nbsp; Find a Store &nbsp;| &nbsp; 1-800-MY-APPLE &nbsp; | &nbsp; Get the Apple Store App
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
